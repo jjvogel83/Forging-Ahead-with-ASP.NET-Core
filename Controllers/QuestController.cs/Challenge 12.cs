@@ -1,6 +1,5 @@
 //Challenge 12 (Set Our Quest Index's Title and Metadata)
 
-Controllers/QuestController.cs
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
