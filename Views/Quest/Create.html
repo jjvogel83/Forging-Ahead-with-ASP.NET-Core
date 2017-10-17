@@ -1,0 +1,22 @@
+<!-- Challenge 10 (Create Our Create Quest View) -->
+@model ForgingAhead.Models.Quest
+<h2>
+  Create Quest
+</h2>
+
+<form  asp-action="Create">
+  <div>
+    <h4>Quest</h4>
+    <hr/>
+    <div>
+     <label asp-for="Name" asp-for="IsActive">IsActive</label>
+     <input asp-for="Name" asp-for="IsActive"/>
+    </div>
+    <div>
+      @* Add IsActive Label and Input Here *@
+    </div>
+    <div>
+      <input type="submit" value="Create" class="btn btn-default"/>
+    </div>
+  </div>
+</form>
